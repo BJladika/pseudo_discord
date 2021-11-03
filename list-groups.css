@@ -1,0 +1,41 @@
+
+.bi {
+  vertical-align: -.125em;
+}
+
+.opacity-50 { opacity: .5; }
+.opacity-75 { opacity: .75; }
+
+.list-group {
+  width: 100%;
+  height: auto;
+  background: #adb5bd;
+}
+
+.list-group-item {
+  color: lightgray;
+  background: #adb5bd none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #481679;
+}
+
+
+
+.form-check-input:checked + .form-checked-content {
+  opacity: .5;
+}
+
+.form-check-input-placeholder {
+  pointer-events: none;
+  border-style: dashed;
+}
+[contenteditable]:focus {
+  outline: 0;
+}
+
+.list-group-checkable {
+  display: grid;
+  gap: .5rem;
+  border: 0;
+}
+
